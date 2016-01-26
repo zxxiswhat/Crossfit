@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E12BF9AA1C523EA2008D5C9A /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = E12BF9A91C523EA2008D5C9A /* Constants.m */; };
+		E14CD8C51C3E522400C3DA58 /* InputTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E14CD8C41C3E522400C3DA58 /* InputTableViewCell.m */; };
+		E15127EA1C3E7DEB001E0431 /* localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E15127EC1C3E7DEB001E0431 /* localizable.strings */; };
+		E16CC1241C3A447D00EEFD00 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E16CC1231C3A447D00EEFD00 /* main.m */; };
+		E16CC1271C3A447D00EEFD00 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E16CC1261C3A447D00EEFD00 /* AppDelegate.m */; };
+		E16CC12A1C3A447D00EEFD00 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E16CC1291C3A447D00EEFD00 /* ViewController.m */; };
+		E16CC12D1C3A447D00EEFD00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E16CC12B1C3A447D00EEFD00 /* Main.storyboard */; };
+		E16CC12F1C3A447D00EEFD00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E16CC12E1C3A447D00EEFD00 /* Assets.xcassets */; };
+		E16CC1321C3A447D00EEFD00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E16CC1301C3A447D00EEFD00 /* LaunchScreen.storyboard */; };
+		E16CC13D1C3A447E00EEFD00 /* CrossfitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E16CC13C1C3A447E00EEFD00 /* CrossfitTests.m */; };
+		E16CC1481C3A447E00EEFD00 /* CrossfitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E16CC1471C3A447E00EEFD00 /* CrossfitUITests.m */; };
+		E1D684161C3F861600175B78 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1D684151C3F861600175B78 /* LoginViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E16CC1391C3A447E00EEFD00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E16CC1171C3A447D00EEFD00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E16CC11E1C3A447D00EEFD00;
+			remoteInfo = Crossfit;
+		};
+		E16CC1441C3A447E00EEFD00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E16CC1171C3A447D00EEFD00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E16CC11E1C3A447D00EEFD00;
+			remoteInfo = Crossfit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E12BF9A91C523EA2008D5C9A /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		E12BF9AB1C523EC4008D5C9A /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		E12BF9AD1C528F35008D5C9A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		E14CD8C31C3E522400C3DA58 /* InputTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputTableViewCell.h; sourceTree = "<group>"; };
+		E14CD8C41C3E522400C3DA58 /* InputTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputTableViewCell.m; sourceTree = "<group>"; };
+		E14CD8C71C3E65DD00C3DA58 /* UIConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIConstants.h; sourceTree = "<group>"; };
+		E15127E61C3E7DC8001E0431 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		E15127E71C3E7DC8001E0431 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		E15127E81C3E7DE3001E0431 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Main.strings"; sourceTree = "<group>"; };
+		E15127E91C3E7DE4001E0431 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		E15127EB1C3E7DEB001E0431 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/localizable.strings; sourceTree = "<group>"; };
+		E15127ED1C3E7DEE001E0431 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/localizable.strings; sourceTree = "<group>"; };
+		E15127EE1C3E7DF0001E0431 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/localizable.strings"; sourceTree = "<group>"; };
+		E15127EF1C3E7DF2001E0431 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/localizable.strings"; sourceTree = "<group>"; };
+		E16CC11F1C3A447D00EEFD00 /* Crossfit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Crossfit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E16CC1231C3A447D00EEFD00 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E16CC1251C3A447D00EEFD00 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E16CC1261C3A447D00EEFD00 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E16CC1281C3A447D00EEFD00 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E16CC1291C3A447D00EEFD00 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E16CC12C1C3A447D00EEFD00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E16CC12E1C3A447D00EEFD00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E16CC1311C3A447D00EEFD00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E16CC1331C3A447D00EEFD00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E16CC1381C3A447E00EEFD00 /* CrossfitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrossfitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E16CC13C1C3A447E00EEFD00 /* CrossfitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CrossfitTests.m; sourceTree = "<group>"; };
+		E16CC13E1C3A447E00EEFD00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E16CC1431C3A447E00EEFD00 /* CrossfitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrossfitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E16CC1471C3A447E00EEFD00 /* CrossfitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CrossfitUITests.m; sourceTree = "<group>"; };
+		E16CC1491C3A447E00EEFD00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1D684141C3F861600175B78 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		E1D684151C3F861600175B78 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E16CC11C1C3A447D00EEFD00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E16CC1351C3A447E00EEFD00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E16CC1401C3A447E00EEFD00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E16CC1161C3A447D00EEFD00 = {
+			isa = PBXGroup;
+			children = (
+				E16CC1211C3A447D00EEFD00 /* Crossfit */,
+				E16CC13B1C3A447E00EEFD00 /* CrossfitTests */,
+				E16CC1461C3A447E00EEFD00 /* CrossfitUITests */,
+				E16CC1201C3A447D00EEFD00 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E16CC1201C3A447D00EEFD00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E16CC11F1C3A447D00EEFD00 /* Crossfit.app */,
+				E16CC1381C3A447E00EEFD00 /* CrossfitTests.xctest */,
+				E16CC1431C3A447E00EEFD00 /* CrossfitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E16CC1211C3A447D00EEFD00 /* Crossfit */ = {
+			isa = PBXGroup;
+			children = (
+				E16CC1631C3B907800EEFD00 /* BaseComponent */,
+				E16CC1551C3A464100EEFD00 /* ViewController */,
+				E16CC1251C3A447D00EEFD00 /* AppDelegate.h */,
+				E16CC1261C3A447D00EEFD00 /* AppDelegate.m */,
+				E16CC1281C3A447D00EEFD00 /* ViewController.h */,
+				E16CC1291C3A447D00EEFD00 /* ViewController.m */,
+				E16CC12B1C3A447D00EEFD00 /* Main.storyboard */,
+				E16CC12E1C3A447D00EEFD00 /* Assets.xcassets */,
+				E16CC1301C3A447D00EEFD00 /* LaunchScreen.storyboard */,
+				E16CC1331C3A447D00EEFD00 /* Info.plist */,
+				E16CC1221C3A447D00EEFD00 /* Supporting Files */,
+			);
+			path = Crossfit;
+			sourceTree = "<group>";
+		};
+		E16CC1221C3A447D00EEFD00 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E15127EC1C3E7DEB001E0431 /* localizable.strings */,
+				E16CC1231C3A447D00EEFD00 /* main.m */,
+				E14CD8C71C3E65DD00C3DA58 /* UIConstants.h */,
+				E12BF9A91C523EA2008D5C9A /* Constants.m */,
+				E12BF9AB1C523EC4008D5C9A /* Constants.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E16CC13B1C3A447E00EEFD00 /* CrossfitTests */ = {
+			isa = PBXGroup;
+			children = (
+				E16CC13C1C3A447E00EEFD00 /* CrossfitTests.m */,
+				E16CC13E1C3A447E00EEFD00 /* Info.plist */,
+			);
+			path = CrossfitTests;
+			sourceTree = "<group>";
+		};
+		E16CC1461C3A447E00EEFD00 /* CrossfitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E16CC1471C3A447E00EEFD00 /* CrossfitUITests.m */,
+				E16CC1491C3A447E00EEFD00 /* Info.plist */,
+			);
+			path = CrossfitUITests;
+			sourceTree = "<group>";
+		};
+		E16CC1551C3A464100EEFD00 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E1D684131C3F825D00175B78 /* Login */,
+				E16CC15B1C3A714800EEFD00 /* BaseViewController */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		E16CC15B1C3A714800EEFD00 /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E14CD8C31C3E522400C3DA58 /* InputTableViewCell.h */,
+				E14CD8C41C3E522400C3DA58 /* InputTableViewCell.m */,
+			);
+			name = BaseViewController;
+			sourceTree = "<group>";
+		};
+		E16CC1631C3B907800EEFD00 /* BaseComponent */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = BaseComponent;
+			sourceTree = "<group>";
+		};
+		E1D684131C3F825D00175B78 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				E1D684141C3F861600175B78 /* LoginViewController.h */,
+				E1D684151C3F861600175B78 /* LoginViewController.m */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E16CC11E1C3A447D00EEFD00 /* Crossfit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E16CC14C1C3A447E00EEFD00 /* Build configuration list for PBXNativeTarget "Crossfit" */;
+			buildPhases = (
+				E16CC11B1C3A447D00EEFD00 /* Sources */,
+				E16CC11C1C3A447D00EEFD00 /* Frameworks */,
+				E16CC11D1C3A447D00EEFD00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Crossfit;
+			productName = Crossfit;
+			productReference = E16CC11F1C3A447D00EEFD00 /* Crossfit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E16CC1371C3A447E00EEFD00 /* CrossfitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E16CC14F1C3A447E00EEFD00 /* Build configuration list for PBXNativeTarget "CrossfitTests" */;
+			buildPhases = (
+				E16CC1341C3A447E00EEFD00 /* Sources */,
+				E16CC1351C3A447E00EEFD00 /* Frameworks */,
+				E16CC1361C3A447E00EEFD00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E16CC13A1C3A447E00EEFD00 /* PBXTargetDependency */,
+			);
+			name = CrossfitTests;
+			productName = CrossfitTests;
+			productReference = E16CC1381C3A447E00EEFD00 /* CrossfitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E16CC1421C3A447E00EEFD00 /* CrossfitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E16CC1521C3A447E00EEFD00 /* Build configuration list for PBXNativeTarget "CrossfitUITests" */;
+			buildPhases = (
+				E16CC13F1C3A447E00EEFD00 /* Sources */,
+				E16CC1401C3A447E00EEFD00 /* Frameworks */,
+				E16CC1411C3A447E00EEFD00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E16CC1451C3A447E00EEFD00 /* PBXTargetDependency */,
+			);
+			name = CrossfitUITests;
+			productName = CrossfitUITests;
+			productReference = E16CC1431C3A447E00EEFD00 /* CrossfitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E16CC1171C3A447D00EEFD00 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = ThreeDot;
+				TargetAttributes = {
+					E16CC11E1C3A447D00EEFD00 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					E16CC1371C3A447E00EEFD00 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = E16CC11E1C3A447D00EEFD00;
+					};
+					E16CC1421C3A447E00EEFD00 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = E16CC11E1C3A447D00EEFD00;
+					};
+				};
+			};
+			buildConfigurationList = E16CC11A1C3A447D00EEFD00 /* Build configuration list for PBXProject "Crossfit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+				"zh-Hant",
+			);
+			mainGroup = E16CC1161C3A447D00EEFD00;
+			productRefGroup = E16CC1201C3A447D00EEFD00 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E16CC11E1C3A447D00EEFD00 /* Crossfit */,
+				E16CC1371C3A447E00EEFD00 /* CrossfitTests */,
+				E16CC1421C3A447E00EEFD00 /* CrossfitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E16CC11D1C3A447D00EEFD00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E16CC1321C3A447D00EEFD00 /* LaunchScreen.storyboard in Resources */,
+				E15127EA1C3E7DEB001E0431 /* localizable.strings in Resources */,
+				E16CC12F1C3A447D00EEFD00 /* Assets.xcassets in Resources */,
+				E16CC12D1C3A447D00EEFD00 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E16CC1361C3A447E00EEFD00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E16CC1411C3A447E00EEFD00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E16CC11B1C3A447D00EEFD00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E14CD8C51C3E522400C3DA58 /* InputTableViewCell.m in Sources */,
+				E16CC12A1C3A447D00EEFD00 /* ViewController.m in Sources */,
+				E16CC1271C3A447D00EEFD00 /* AppDelegate.m in Sources */,
+				E16CC1241C3A447D00EEFD00 /* main.m in Sources */,
+				E1D684161C3F861600175B78 /* LoginViewController.m in Sources */,
+				E12BF9AA1C523EA2008D5C9A /* Constants.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E16CC1341C3A447E00EEFD00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E16CC13D1C3A447E00EEFD00 /* CrossfitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E16CC13F1C3A447E00EEFD00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E16CC1481C3A447E00EEFD00 /* CrossfitUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E16CC13A1C3A447E00EEFD00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E16CC11E1C3A447D00EEFD00 /* Crossfit */;
+			targetProxy = E16CC1391C3A447E00EEFD00 /* PBXContainerItemProxy */;
+		};
+		E16CC1451C3A447E00EEFD00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E16CC11E1C3A447D00EEFD00 /* Crossfit */;
+			targetProxy = E16CC1441C3A447E00EEFD00 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E15127EC1C3E7DEB001E0431 /* localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E15127EB1C3E7DEB001E0431 /* Base */,
+				E15127ED1C3E7DEE001E0431 /* en */,
+				E15127EE1C3E7DF0001E0431 /* zh-Hans */,
+				E15127EF1C3E7DF2001E0431 /* zh-Hant */,
+			);
+			name = localizable.strings;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		E16CC12B1C3A447D00EEFD00 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E16CC12C1C3A447D00EEFD00 /* Base */,
+				E15127E61C3E7DC8001E0431 /* zh-Hans */,
+				E15127E81C3E7DE3001E0431 /* zh-Hant */,
+				E12BF9AD1C528F35008D5C9A /* en */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E16CC1301C3A447D00EEFD00 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E16CC1311C3A447D00EEFD00 /* Base */,
+				E15127E71C3E7DC8001E0431 /* zh-Hans */,
+				E15127E91C3E7DE4001E0431 /* zh-Hant */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E16CC14A1C3A447E00EEFD00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E16CC14B1C3A447E00EEFD00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E16CC14D1C3A447E00EEFD00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Crossfit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zxx.Crossfit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E16CC14E1C3A447E00EEFD00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Crossfit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zxx.Crossfit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E16CC1501C3A447E00EEFD00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CrossfitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zxx.CrossfitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Crossfit.app/Crossfit";
+			};
+			name = Debug;
+		};
+		E16CC1511C3A447E00EEFD00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CrossfitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zxx.CrossfitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Crossfit.app/Crossfit";
+			};
+			name = Release;
+		};
+		E16CC1531C3A447E00EEFD00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CrossfitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zxx.CrossfitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Crossfit;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		E16CC1541C3A447E00EEFD00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CrossfitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zxx.CrossfitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Crossfit;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E16CC11A1C3A447D00EEFD00 /* Build configuration list for PBXProject "Crossfit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E16CC14A1C3A447E00EEFD00 /* Debug */,
+				E16CC14B1C3A447E00EEFD00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E16CC14C1C3A447E00EEFD00 /* Build configuration list for PBXNativeTarget "Crossfit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E16CC14D1C3A447E00EEFD00 /* Debug */,
+				E16CC14E1C3A447E00EEFD00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E16CC14F1C3A447E00EEFD00 /* Build configuration list for PBXNativeTarget "CrossfitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E16CC1501C3A447E00EEFD00 /* Debug */,
+				E16CC1511C3A447E00EEFD00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E16CC1521C3A447E00EEFD00 /* Build configuration list for PBXNativeTarget "CrossfitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E16CC1531C3A447E00EEFD00 /* Debug */,
+				E16CC1541C3A447E00EEFD00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E16CC1171C3A447D00EEFD00 /* Project object */;
+}

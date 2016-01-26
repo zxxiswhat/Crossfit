@@ -1,0 +1,12 @@
+/* 
+  localizable.strings
+  Crossfit
+
+  Created by baidu on 16/1/7.
+  Copyright © 2016年 ThreeDot. All rights reserved.
+*/
+
+"login_account"="帐号";
+"login_password"="密码";
+"login_account_placeholder"="请输入您的帐号";
+"login_password_placeholder"="请输入您的密码";
